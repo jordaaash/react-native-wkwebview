@@ -1,0 +1,44 @@
+{
+    "name":             "react-native-wkwebview",
+    "version":          "0.0.0",
+    "description":      "React Native WKWebView for iOS",
+    "main":             "index.js",
+    "repository":       {
+        "type": "git",
+        "url":  "git+https://github.com/jordansexton/koa-heartbeat.git"
+    },
+    "keywords":         [
+        "react",
+        "native",
+        "wkwebview",
+        "webview",
+        "ios"
+    ],
+    "author":           "Jordan Sexton <jordan@jordansexton.com>",
+    "contributors":     [
+        {
+            "name":  "Jordan Sexton",
+            "email": "jordan@jordansexton.com"
+        }
+    ],
+    "license":          "MIT",
+    "bugs":             {
+        "url": "https://github.com/jordansexton/react-native-wkwebview/issues"
+    },
+    "homepage":         "https://github.com/jordansexton/react-native-wkwebview",
+    "scripts":          {
+        "lint": "eslint --ext .js --ext .jsx ."
+    },
+    "pre-push#master":  [
+        "lint"
+    ],
+    "peerDependencies": {
+        "react-native": "*"
+    },
+    "devDependencies":  {
+        "babel-eslint":        "5.0.0",
+        "eslint":              "1.10.3",
+        "eslint-plugin-react": "3.16.1",
+        "react-native":        "0.20.0"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "env":          {
+        "commonjs": 1,
+        "node":     1
+    },
+    "globals":      {
+        "process": 1
+    },
+    "ecmaFeatures": {
+        "classes":       1,
+        "destructuring": 1,
+        "spread":        1
+    },
+    "parser":       "babel-eslint",
+    "rules":        {
+        "camelcase":            2,
+        "comma-spacing":        [
+            2, {
+                "before": false,
+                "after":  true
+            }
+        ],
+        "constructor-super":    2,
+        "jsx-quotes":           [ 2, "prefer-double" ],
+        "key-spacing":          [
+            2, {
+                "align":       "value",
+                "beforeColon": false,
+                "afterColon":  true,
+                "mode":        "minimum"
+            }
+        ],
+        "new-cap":              0,
+        "new-parens":           0,
+        "no-alert":             1,
+        "no-empty":             2,
+        "no-ex-assign":         2,
+        "no-mixed-requires":    2,
+        "no-multi-spaces":      [
+            2, {
+                "exceptions": {
+                    "AssignmentExpression": true,
+                    "ImportDeclaration":    true,
+                    "VariableDeclarator":   true
+                }
+            }
+        ],
+        "no-new-func":          0,
+        "no-process-exit":      0,
+        "no-shadow":            0,
+        "no-undef":             2,
+        "no-underscore-dangle": 0,
+        "no-unused-vars":       [
+            2, {
+                "vars": "all",
+                "args": "none"
+            }
+        ],
+        "no-wrap-func":         0,
+        "one-var":              [
+            2, {
+                "uninitialized": "always",
+                "initialized":   "never"
+            }
+        ],
+        "quotes":               [ 2, "single", "avoid-escape" ]
+    }
+}
